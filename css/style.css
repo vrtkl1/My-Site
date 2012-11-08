@@ -1,0 +1,190 @@
+body, html { height: 100%; }
+
+body {
+    background: #F9F9F9;
+	background-image:url("../images/square_bg.jpg");
+	background-repeat:repeat;
+	color: #222; font-family: 'Droid Serif', serif; font-size: 16px;
+}
+
+a { 
+	outline: 0; 
+	color: #222; 
+	text-decoration: none; 
+}
+a:hover { 
+	text-decoration: underline; 
+}
+p a:hover { 
+	color: #27B3CF; 
+}
+a:active { 
+	outline: none; 
+	position: relative; 
+	top: 2px; 
+}
+
+h1 { 
+	font-size: 90px; 
+	font-family: 'Droid Serif', serif; 
+	line-height: 75px; 
+	padding: 10px; 
+}
+
+h2 { 
+	font-family: 'Helvetica'; 
+	font-size: 18px; 
+	padding: 10px; 
+}
+
+h3 { 
+	font-family: 'Droid Serif', serif; 
+	font-size: 30px; color: #0072bc; 
+}
+
+h4 { 
+	font-family: 'Droid Serif', serif; 
+	padding: 3px; 
+	margin: 5px 0 0 0; 
+}
+
+p { 
+	padding: 0 5px 0 5px; 
+}
+
+ul { 
+	list-style: none; 
+}
+ul li { 
+	margin: 0 5px; 
+}
+
+.clearfix { 
+	clear: both; 
+}
+
+#wrapper { 
+ 	background: #fff;
+	margin: 10px auto; 
+	max-width: 980px; 
+	width: 90%; 
+	padding: 10px 0; 
+}
+
+header { 
+	padding: 3px; 
+}
+
+#logoContainer {
+	width: 39.68254%;
+	float: left;
+	clear: both;
+}
+
+#logoContainer img {
+	max-width: 100%
+}
+
+nav { 
+	background: #0072bc; 
+	padding: 0; 
+	margin: 10px 0;
+}
+
+nav a { 
+	color: #F9F9F9; 
+	display: block; 
+	float: left; 
+	padding: 10px; 
+}
+
+nav a:visited { 
+	color: #f9f9f9; 
+}
+
+nav a:hover	{ 
+	text-decoration: none; 
+	background: #25a8fd; 
+}
+
+nav a:active { 
+	position: relative; 
+	top: 0; 
+}
+
+
+#featured { 
+	padding: 20px; 
+}
+#featured p {
+	float: left;
+	width: 29%;
+	padding: 1em;
+}
+
+#featImgContainerContainer {
+	width: 100%;
+	float: left;
+}
+
+#featImgContainerContainer img {
+	max-width: 100%
+}
+
+#latest	{ 
+	padding: 20px; 
+}
+
+.left-col { 
+	width: 50%; 
+	float: left; 
+}
+
+.sidebar { 
+	width: 50%; 
+	float: right; 
+	margin-bottom: 10px; 
+}
+
+.thumbs ul li { 
+	float: left; 
+	padding: 0 1em 1em 0; 
+}
+.thumbs ul li a img { 
+	display: block;   
+	border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-o-border-radius: 4px; 
+}
+.thumbs ul li a:hover img { 
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=80); 
+}
+
+@media screen and (max-width: 478px) 	{
+	h1 { font-size: 70px; padding: 1px; }
+	h2 { font-size: 13px; padding: 1px; }
+	body { font-size: 13px; }
+}
+
+@media screen and (max-width: 740px) 	{
+	.left-col { width: 100%; }
+	.sidebar { width: 100%; }
+	#featured p { width: 100% }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+#logoContainer {
+	width:100%;
+}
