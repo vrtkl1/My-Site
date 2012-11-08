@@ -12,47 +12,62 @@
   	
 </head>  
 <body>
-	<header>
-		<a href="index.html"><img src="images/logo1.png" alt="logo"></a>
-		<h1>Bruce Card Custom Surfboards</h1>
-		<h2>Completely Custom Wooden Longboards</h2>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Photos</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section>
-		<img src="images/shop1.jpg" alt="shop">
-		<article>
-		<h2>Classic Shapes, Old School Style</h2>
-		<p><strong><em>About the boards.</em></strong><br>The boards are made by using a hollow design that incorporates frames, similar to those used in a boat.</p>
-		<p><strong><em>Some background.</em></strong><br>Bruce has lived and surfed in California and Hawaii. He currently lives in the Monterey Bay area.</p>
-		<p><strong><em>Future boards.</em></strong><br>The next board is going to be built using redwood reclaimed from a water tank on the coast in Big Sur.</p>
-		</article>
-		<section>
-			<h3>Latest News :</h3>
-			<h4>Going to glass</h4>
-			<p>The first board is ready to get glassed. Once that's done it will be ready to ride...</p>
-			<h4>Redwood is ready</h4>
-			<p>The reclaimed redwood is ready to be picked up. The next board is gonna look cool with this addition...</p>
-		</section>
-		<aside>
-			<div id="gallery">
-			<h3>Photos:</h3>
-			<ul>
-				<li><a href="#"><img src="images/board1.jpg" alt="board under construction"></a></li>
-				<li><a href="#"><img src="images/surfing.jpg" alt="Bruce surfing"></a></li>
-				<li><a href="#"><img src="images/tailblock.jpg" alt="the board's tailblock"></a></li>
-				<li><a href="#"><img src="images/board2.jpg" alt="board sitting on the bench"></a></li>
-			</ul>
+	<div id="wrapper">
+		<header>
+			<div id="logoContainer">
+			<a href="index.html"><img src="images/logo1.png" alt="logo"></a>
 			</div>
-		</aside>
-	</section>
-	<footer>
-		<p>Bruce Card Custom Surfboards &copy; 2012</p>
-	</footer>
-</body>  
+			<h2 class="clearfix">Completely Custom Wooden Longboards</h2>
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">Photos</a>
+				<a href="#">Contact</a>
+				<div class="clearfix"></div>
+			</nav>
+		</header>
+		<section id="main-content">
+			<div id="featured">
+				<div id="featImgContainer"><img src="images/shop1.jpg" alt="shop"></div>
+				<hr/>
+				<h3 class="clearfix">Classic Shapes, Old School Style :</h3>
+				<p><strong><em>About the boards.</em></strong><br>The boards are made by using a hollow design that incorporates frames, similar to those used in a boat.</p>
+				<p><strong><em>Some background.</em></strong><br>Bruce has lived and surfed in California and Hawaii. He currently lives in the Monterey Bay area.</p>
+				<p><strong><em>Future boards.</em></strong><br>The next board is going to be built using redwood that was reclaimed from a water tank on the coast in Big Sur.</p>
+			</div> 
+			<hr class="clearfix" />
+			<div id="latest">
+				<section class="left-col">
+					<h3>Latest News :</h3><br/>
+					<h4><a href="#">Going to glass</a></h4>
+					<p>The first board is ready to get glassed. Once that's done it will be ready to ride...</p>
+					<h4><a href="#">Redwood is ready</a></h4>
+					<p>The reclaimed redwood is ready to be picked up. The next board is gonna look cool with this addition...</p>
+					
+				</section>
+
+		<aside class="sidebar">
+					<h3>Photos:</h3>
+					<div class="thumbs">
+					<ul>
+						<li><a href="#"><img src="images/board1.jpg" alt="board under construction"></a></li>
+						<li><a href="#"><img src="images/surfing.jpg" alt="Bruce surfing"></a></li>
+						<li><a href="#"><img src="images/tailblock.jpg" alt="the board's tailblock"></a></li>
+						<li><a href="#"><img src="images/board2.jpg" alt="board sitting on the bench"></a></li>
+					</ul>
+					</div>
+					<br/>
+					
+				</aside>
+		</div> <!-- END Latest -->
+			<div class="clearfix"></div>
+			
+				
+		</section>	
+		<hr/>
+		<footer>
+			
+			<p>Bruce Card Custom Surfboards &copy; 2012</p>
+		</footer>
+</div>
+</body>    
 </html>
