@@ -193,3 +193,10 @@ img {
 #logoContainer {
 	width:100%;
 }
+
+table {
+	border-collapse=collapse;
+}
+td {
+	border: 1px solid #ccc;
+}
