@@ -140,6 +140,11 @@ nav a:active {
 	float: left; 
 }
 
+.right-col { 
+	width: 50%; 
+	float: right; 
+}
+
 .sidebar { 
 	width: 50%; 
 	float: right; 
