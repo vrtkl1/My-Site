@@ -141,7 +141,7 @@ nav a:active {
 }
 
 .right-col { 
-	width: 50%; 
+	width: 48%; 
 	float: right; 
 }
 
@@ -172,6 +172,8 @@ nav a:active {
 	h1 { font-size: 70px; padding: 1px; }
 	h2 { font-size: 13px; padding: 1px; }
 	body { font-size: 13px; }
+	.right-col { 
+	width: 100%; }
 }
 
 @media screen and (max-width: 740px) 	{
@@ -208,4 +210,7 @@ th {
 td {
 	border: 1px solid #ccc;
 	padding: 0.25em;
+}
+form {
+	padding: 2em;
 }
