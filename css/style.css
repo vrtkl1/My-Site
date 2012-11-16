@@ -200,6 +200,10 @@ table {
 
 th {
 	text-align: left;
+	background-color: #0072bc;
+	color: #fff;
+	border: 1px solid #ccc;
+	padding: 0.25em;
 }
 td {
 	border: 1px solid #ccc;
