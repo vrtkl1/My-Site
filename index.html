@@ -85,6 +85,68 @@
 				</table>
 			</section>
 			<section class="right-col">
+			 <form action="process_form.php" class="TTWForm" method="post" novalidate="">
+           
+           
+          <div id="field1-container" class="field f_100">
+               <label for="field1">
+                    Last Name, First Name
+               </label>
+               <input type="text" name="name" id="field1" required="required">
+          </div>
+           
+           
+          <div id="field6-container" class="field f_100">
+               <label for="field6">
+                    Email Address
+               </label>
+               <input type="email" name="email" id="field6" required="required">
+          </div>
+           
+           
+          <div id="field3-container" class="field f_100">
+               <label for="field3">
+                    Where You Surf
+               </label>
+               <input type="text" name="surfLocation" id="field3" required="required">
+          </div>
+           
+           
+          <div id="field4-container" class="field f_100 radio-group required">
+               <label for="field4-1">
+                    Are you in the market for a new board?
+               </label>
+                
+                
+               <div class="option clearfix">
+                    <input type="radio" name="newBoard" id="field4-1" value="Yes">
+                    <span class="option-title">
+                         Yes
+                    </span>
+               </div>
+                
+                
+               <div class="option clearfix">
+                    <input type="radio" name="newBoard" id="field4-2" value="No">
+                    <span class="option-title">
+                         No
+                    </span>
+               </div>
+          </div>
+           
+           
+          <div id="field5-container" class="field f_100">
+               <label for="field5">
+                    Comments
+               </label>
+               <textarea rows="5" cols="20" name="comment" id="field5" required="required"></textarea>
+          </div>
+           
+           
+          <div id="form-submit" class="field f_100 clearfix submit">
+               <input type="submit" value="Submit">
+          </div>
+     </form>
 			</section>
 		</div>
 		<div class="clearfix"></div>
