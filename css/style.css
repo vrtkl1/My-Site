@@ -195,7 +195,11 @@ img {
 }
 
 table {
-	border-collapse=collapse;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
 }
 td {
 	border: 1px solid #ccc;
