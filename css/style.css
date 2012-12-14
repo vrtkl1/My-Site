@@ -139,7 +139,7 @@ nav a:active {
 	max-width: 100%
 }
 
-#latest	{ 
+.latest	{ 
 	padding: 1.250em; 
 }
 
@@ -147,6 +147,11 @@ nav a:active {
 	width: 50%; 
 	float: left; 
 	background: rgba(0, 114, 188, .08);
+}
+
+.right-col { 
+	width: 48%; 
+	float: right; 
 }
 
 .sidebar { 
@@ -216,18 +221,38 @@ img {
    background: #1b435e;
    }
 
+table {
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+	background-color: #0072bc;
+	color: #fff;
+	border: 1px solid #ccc;
+	padding: 0.25em;
+}
+td {
+	border: 1px solid #ccc;
+	padding: 0.25em;
+}
+form {
+	padding: 2em;
+}
 
 /* Media Queries */
 
 /* Tablet Portrait to 1200 px (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	.left-col { width: 100%; }
+	.right-col { width: 100%; }
 	.sidebar { width: 100%; }
 }
 
 /* Mobile Landscape to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.left-col { width: 100%; }
+	.right-col { width: 100%; }
 	.sidebar { width: 100%; }
 	#featured p { width: 100% 
 	-moz-column-count: 1;
@@ -241,6 +266,7 @@ img {
 	h2 { font-size: 13px; padding: 1px; }
 	body { font-size: .85em; }
 	.left-col { width: 100%; }
+	.right-col { width: 100%; }
 	.sidebar { width: 100%; }
 	#featured p { width: 100% 
 	-moz-column-count: 1;
